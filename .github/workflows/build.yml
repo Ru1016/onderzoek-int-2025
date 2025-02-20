@@ -1,6 +1,6 @@
 name: Extract Transform Load - extract markdown from docx with pandoc
 run-name: docx ➡️  html after document change by ${{ github.actor }}
-
+ 
 on:
   push:
     paths: [ '*.docx', '*.md', '*.js', 'index.html' ]
